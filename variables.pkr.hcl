@@ -31,10 +31,8 @@ variable "ami_name" {
 
 variable "ssh_keypair_name" {
   type = string
-  default = "your-ssh-key"
 }
 
 variable "ssh_private_key_file" {
   type = string
-  default = "your-ssh-key.pem"
 }
